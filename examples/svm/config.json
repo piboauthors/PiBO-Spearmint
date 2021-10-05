@@ -1,0 +1,22 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "svm.py",
+    "experiment-name" : "svm-example",
+    "likelihood"      : "NOISELESS",
+
+    "variables" : {
+        "x0" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 1
+        },
+        "x1" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 1
+        }
+    }
+}
+

@@ -1,0 +1,5 @@
+Starting MongoDB:
+mongod --fork --logpath smlog.log --dbpath data/
+
+Starting Spearmint(branin):
+python spearmint/main.py examples/simple/

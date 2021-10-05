@@ -1,0 +1,46 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "unet.py",
+    "experiment-name" : "unet-example",
+    "likelihood"      : "GAUSSIAN",
+
+    "variables" : {
+        "a_x0" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : -6,
+            "max"  : -2
+        },
+        "b_x1" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : -6,
+            "max"  : -2
+        },
+        "c_dropout" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 0.99
+        },
+        "d_beta_1" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 0.222,
+            "max"  : 2
+        },
+        "e_beta_2" : {
+            "type" : "FLOAT",
+            "size" : 1,
+            "min"  : 1,
+            "max"  : 4
+        },
+        "f_activation" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 2
+        }
+    }
+}
+

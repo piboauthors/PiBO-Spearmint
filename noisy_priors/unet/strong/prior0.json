@@ -1,0 +1,62 @@
+{
+ 	"a_x0":
+    {
+         "range":[-6, -2],
+         "dist": "gaussian",
+         "params":
+        {
+                "mean": [-4],
+                 "std": [1]
+        }   
+    },    
+    "b_x1":
+    {
+        "range":[-6, -2],
+        "dist": "gaussian",
+        "params":
+       {
+               "mean": [-4.5],
+                "std": [1]
+       }   
+   },    
+    "c_dropout":
+    {
+        "range":[0, 0.99],
+        "dist": "gaussian",
+        "params":
+        {
+                "mean": [0.5],
+                "std": [0.245]
+        }   
+    },    
+    "d_beta_1":
+    {
+        "range":[0.222, 2],
+        "dist": "gaussian",
+        "params":
+       {
+               "mean": [1],
+                "std": [0.44453781259]
+       }
+   },    
+    "e_beta_2":
+    {
+        "range":[1, 4],
+        "dist": "gaussian",
+        "params":
+        {
+                "mean": [3],
+                "std": [0.75]
+        }   
+    },    
+    "f_activation":
+    {
+        "range":[0, 2],
+        "type": "categorical",
+        "params":
+       {
+               "mean": [0],
+                "std": [20]
+       }   
+   }
+}

@@ -1,0 +1,9 @@
+Pillow
+tf2onnx
+munch
+ConfigSpace
+horovod==0.21.*
+jupyterlab-nvdashboard
+git+https://github.com/NVIDIA/dllogger
+# make sure horovod is re-compiled if environment is re-built
+--no-binary=horovod

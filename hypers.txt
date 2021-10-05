@@ -1,0 +1,11 @@
+{u'main': {u'chain length': 110, u'hypers': {u'amp2': 0.4833546771662661, u'beta_alpha': array([0.77153492, 0.35649746]), u'ls': array([0.11021454, 7.54026384]), u'beta_beta': array([1.31856218, 1.16780295]), u'mean': 0.2544262090844047}}, u'_id': ObjectId('60509b08b70169a1dbcf1982')}
+
+
+
+
+[{u'status': u'complete', u'submit time': 1615901391.985432, u'expt_dir': u'/home/hvarfner/Documents/SPrMint/Spearmint/examples/branin', u'resource': u'Main', u'language': u'PYTHON', u'proc_id': 27681, u'main-file': u'branin.py', u'start time': 1615901392.233855, u'end time': 1615901392.235418, u'tasks': [u'main'], u'params': {u'y': {u'values': array([2.78370836]), u'type': u'float'}, u'x': {u'values': array([1.3579877]), u'type': u'float'}}, u'values': {u'main': 13.700442194609483}, u'_id': ObjectId('6050b2cf1f14d77bf74f45be'), u'id': 1}, {u'status': u'complete', u'submit time': 1615901397.181919, u'expt_dir': u'/home/hvarfner/Documents/SPrMint/Spearmint/examples/branin', u'resource': u'Main', u'language': u'PYTHON', u'proc_id': 28060, u'main-file': u'branin.py', u'start time': 1615901397.41686, u'end time': 1615901397.418145, u'tasks': [u'main'], u'params': {u'y': {u'values': array([10.21009015]), u'type': u'float'}, u'x': {u'values': array([2.54135616]), u'type': u'float'}}, u'values': {u'main': 57.13935200829401}, u'_id': ObjectId('6050b2d51f14d77bf74f45d3'), u'id': 2}]
+
+
+
+{u'status': u'complete', u'submit time': 1615901391.985432, u'expt_dir': u'/home/hvarfner/Documents/SPrMint/Spearmint/examples/branin', u'resource': u'Main', u'language': u'PYTHON', u'proc_id': 27681, u'main-file': u'branin.py', u'start time': 1615901392.233855, u'end time': 1615901392.235418, u'tasks': [u'main'], u'params': {u'y': {u'values': array([2.78370836]), u'type': u'float'}, u'x': {u'values': array([1.3579877]), u'type': u'float'}}, u'values': {u'main': 13.700442194609483}, u'_id': ObjectId('6050b2cf1f14d77bf74f45be'), u'id': 1}
+

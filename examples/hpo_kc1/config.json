@@ -1,0 +1,40 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "start_hpobench.py",
+    "experiment-name" : "hpobench-example",
+    "likelihood"      : "NOISELESS",
+
+    "variables" : {
+        "alpha" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 9
+        },
+        "batch_size" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 9
+        },
+        "depth" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 2
+        },
+        "learning_rate_init" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 9
+        },
+        "width" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 9
+        }
+    }
+}
+
