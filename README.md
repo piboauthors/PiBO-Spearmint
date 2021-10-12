@@ -2,6 +2,42 @@ PiBO-Spearmint
 
 This repository is supplied to reproduce the experiments of PiBO: Augmenting Acquisition Functions with User Beliefs for Bayesian Optimization.
 
+Since Spearmint is a python2 framework, the installation procedure for this repository is rather unintuitive. To get all the required dependencies, please do the following:
+
+- Create the conda environment from __mint.yml__ (python2 environment containingthe spearmint dependencies)
+- Within said environment, ensure that the python installation pointed to by python3 contains the dependencies listed for each of the benchmark suites:
+- Profet:
+	- pybnn
+	- torch
+	- torchvision
+- HPOBench:
+	- configspace
+	- pyro4
+	- oslo-concurrency
+
+To start, simply run (in Spearmint, with the conda environment activated):
+
+bash start_one.sh p{beta} {prior_quality} {prior_number} {function}
+
+Examples of this are:
+**bash start_one.sh p10 strong 0 fcnet**
+to run the Profet FCNet with a strong prior (the 0:th strong prior), or
+
+**bash start_one.sh warping weak 10 branin**
+to run warping with the 10:th weak branin prior.
+
+Complete list of benchmark options:
+
+beta: [0-inf], int (for PiBO), {sample, warping} for sampling from prior or warping
+
+prior_quality: {strong, weak, wrong, noprior} for Branin, Hartmann-6 and Profet benchmarks, {strong, noprior} for HPOBench.
+
+prior_number [0-19]
+
+function: {branin, hartmann, svm, fcnet, xgboost, hpo_australian, hpo_blood, hpo_credit, hpo_kc1, hpo_segment, hpo_vehicle}
+
+
+
 
 
 
